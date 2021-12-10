@@ -1,4 +1,4 @@
-Need Ubuntu LTS, tested on 20.04 LTS
+Need Ubuntu LTS, tested on 20.04 LTS //
 You need to add r-cran repo first
 
 #configuring C toolchain for linux
