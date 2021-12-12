@@ -67,6 +67,7 @@ install.packages(c("coda","mvtnorm","devtools","loo","dagitty"))
 devtools::install_github("rmcelreath/rethinking")
 
 #tidyverse
+
 sudo apt install r-cran-vroom r-cran-tzdb r-cran-broom r-cran-googledrive r-cran-googlesheets4  r-cran-readr r-cran-haven
 
 install.packages("tidyverse")
