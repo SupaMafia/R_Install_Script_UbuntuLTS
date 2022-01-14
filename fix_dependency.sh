@@ -2,7 +2,7 @@
 # You need to install r-base first.
 # You need to add r-cran repo first.
 # follow the offical guide first, and only run the script if the suggested install has failed
-# try again the offical install method
+# after the script, try again the offical install method
 
 #configuring C toolchain for linux
 sudo add-apt-repository ppa:marutter/rrutter4.0
