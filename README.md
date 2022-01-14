@@ -10,6 +10,8 @@ sudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+
 
 sudo apt update
 
+sudo apt upgrade
+
 sudo apt install r-cran-rstan
 
 #create or edit a configuration file for the C++ toolchain
