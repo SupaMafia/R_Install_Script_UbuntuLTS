@@ -7,6 +7,8 @@
 sudo add-apt-repository ppa:marutter/rrutter4.0
 sudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+
 sudo apt update
+sudo apt upgrade
+sudo apt update
 sudo apt install r-cran-rstan
 #install V8
 sudo apt install libnode-dev
