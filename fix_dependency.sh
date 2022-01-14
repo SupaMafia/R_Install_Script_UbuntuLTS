@@ -1,7 +1,7 @@
 # Need Ubuntu LTS, tested on 20.04 LTS
 # You need to install r-base first.
 # You need to add r-cran repo first.
-# follow the offical guide first, and only the script if the suggested install failed
+# follow the offical guide first, and only run the script if the suggested install has failed
 # try again the offical install method
 
 #configuring C toolchain for linux
