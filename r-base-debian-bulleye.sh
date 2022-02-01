@@ -1,5 +1,4 @@
-sudo apt update
-sudo apt upgrade
+sudo apt update && upgrade
 sudo apt install dirmngr --install-recommends
 sudo apt install software-properties-common
 sudo apt install apt-transport-https
