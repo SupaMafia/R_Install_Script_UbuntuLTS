@@ -1,3 +1,5 @@
+#-------------------------------------------------------------
+fix_dependency.sh
 
 Need Ubuntu LTS, tested on 20.04 LTS
 
@@ -7,7 +9,17 @@ You shoud follow the offical install guide first, and only run the script if the
 
 After using the script, try the offical install method again.
 
+#--------------------------------------------------------------
+r-base-debian-bulleye.sh
+
+It checks the dependencies, and then add the repo for the lastest version of r-base
+
+#--------------------------------------------------------------
+Useful Links
+
 Install R on Ubuntu: https://cran.r-project.org/bin/linux/ubuntu/fullREADME.html
+
+Install R on Debian: https://cran.r-project.org/bin/linux/debian/#supported-branches
 
 Install Rstudio: https://www.rstudio.com/products/rstudio/download/#download 
 
