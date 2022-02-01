@@ -4,11 +4,17 @@
 # follow the offical guide first, and only run the script if the suggested install has failed
 # after the script, try again the offical install method
 #configuring C toolchain for linux
+
+# check is R is installed. 
+if dpkg-query -Wf'${db:Status-abbrev}' "r-base" 2>/dev/null | grep -q '^i'; then
+    printf 'r-base is installed\n' 
+else
+    printf 'r-base not currently installed.\n' && exit
+fi
+
 sudo add-apt-repository ppa:marutter/rrutter4.0
 sudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+
-sudo apt update
-sudo apt upgrade
-sudo apt update
+sudo apt update && upgrade
 sudo apt install r-cran-rstan
 #install V8
 sudo apt install libnode-dev
