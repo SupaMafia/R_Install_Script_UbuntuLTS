@@ -2,7 +2,7 @@
 
 !!!Need Ubuntu LTS tested on 20.04 LTS!!!
 
-Not for other Linux systems
+!!!Not for other Linux systems!!!
 
 To use it,  you need to install r-base and add r-cran repo first.
 
