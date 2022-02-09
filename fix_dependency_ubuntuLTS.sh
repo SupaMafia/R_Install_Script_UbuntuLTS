@@ -5,7 +5,7 @@
 # after the script, try again the offical install method
 #configuring C toolchain for linux
 
-# check is R is installed. 
+# check if R is installed. 
 if dpkg-query -Wf'${db:Status-abbrev}' "r-base" 2>/dev/null | grep -q '^i'; then
     printf 'r-base is installed\n' 
 else
