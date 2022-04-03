@@ -1,8 +1,8 @@
 #------------fix_dependency.sh--------------------
 
-!!! Need Ubuntu LTS tested on 20.04 LTS !!!
+!! the script is currently broken !!
 
-!!! Not for other Linux systems !!!
+!!! Need Ubuntu LTS tested on 20.04 LTS !!!
 
 To use it,  you need to install r-base and add r-cran repo first.
 
